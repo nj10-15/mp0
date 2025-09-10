@@ -20,7 +20,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Deploy job after build job
   deploy:
     runs-on: ubuntu-latest
     environment:
